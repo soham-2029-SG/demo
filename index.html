@@ -1,30 +1,32 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>E-Shopping</title>
+<title>ShopEasy</title>
+<style>
+body{text-align:center;font-family:Arial;background:#f3f0ff}
+header{background:#6c5ce7;color:white;padding:20px}
+.card{background:white;display:inline-block;padding:20px;
+margin:10px;border-radius:15px;box-shadow:0 3px 8px #aaa}
+button{background:#6c5ce7;color:white;padding:10px;
+border:0;border-radius:8px;cursor:pointer}
+</style>
 </head>
 <body>
-    <h1>Welcome to E-Shopping</h1>
-    <hr>
-
-    <h2>Our Products</h2>
-
-    <h3>Mobile - ₹12,000</h3>
-    <button onclick="alert('Added to Cart')">
-        Add to Cart
-    </button>
-
-    <h3>Laptop - ₹45,000</h3>
-    <button onclick="alert('Added to Cart')">
-        Add to Cart
-    </button>
-
-    <h3>Headphones - ₹1,500</h3>
-    <button onclick="alert('Added to Cart')">
-        Add to Cart
-    </button>
-
-    <hr>
-    <footer>© 2026 E-Shopping Store</footer>
+<header>
+<h1>🛍️ ShopEasy</h1>
+<p>Happy Shopping!</p>
+</header>
+<h2>Our Products</h2>
+<div class="card">
+<h2>📱</h2><h3>Mobile</h3>
+<p>₹12,000</p>
+<button onclick="alert('Added to Cart!')">Buy Now</button>
+</div>
+<div class="card">
+<h2>🎧</h2><h3>Headphones</h3>
+<p>₹999</p>
+<button onclick="alert('Added to Cart!')">Buy Now</button>
+</div>
 </body>
 </html>
